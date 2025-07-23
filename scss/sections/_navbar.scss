@@ -1,0 +1,17 @@
+@use "../_custom.scss" as *;
+@use "../components/_mixins.scss" as *;
+.menu {
+  @include gradient;
+  .logo-navbar {
+    height: 60px;
+    object-fit: contain;
+  }
+  li {
+    padding: 0 0.07rem;
+    a {
+      color: $white !important;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+}
